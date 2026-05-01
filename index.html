@@ -282,15 +282,19 @@
   }
 
   /* Section header rows (yellow background in original) */
-  table.triad tr.sect-header td {
+  table.triad tr.sect-header td:first-child {
     background: var(--indigo);
     color: #f0ead0;
     font-family: 'Cinzel', serif;
     font-size: 0.78rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    padding: 0.5rem 0.9rem;
-    font-weight: 400;
+    font-weight: 700;
+    padding: 0.6rem 1rem;
+  }
+  table.triad tr.sect-header td:not(:first-child) {
+    background: transparent;
+    border-color: transparent;
   }
 
   /* Category label rows (pink/rose in original) */
@@ -686,7 +690,7 @@
 <table class="triad">
 <tbody>
 
-  <tr class="sect-header"><td colspan="3">Oahspe</td></tr>
+  <tr class="sect-header"><td>Oahspe</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr><td>Jehovih</td><td>Es (essence; ousia, in Greek)</td><td>Corpor</td></tr>
   <tr><td>The All Knowledge, All Highest Light, All Person</td><td>The Unseen World, testimony of angels, also spirit</td><td>Whatever has length, breadth and thickness</td></tr>
   <tr><td>Ormazd, the ghost of all things</td><td>Mi, a virgin never before conceived, the seen and unseen</td><td>Vivanho, the expression of things</td></tr>
@@ -755,7 +759,7 @@
   <tr><td>Based on the four letter Tetragrammaton (Yod Hei Vav Hei)</td><td class="cat-label"><strong>A possible Name of the Creator Je-Ho-Vih</strong></td><td>This name of God is said to be pronounced Ya-H-Weh</td></tr>
   <tr><td>Je becomes Ye (the letter Yod) like E</td><td>Ho becomes the letter Hei, like Oh</td><td>Vih becomes Weh (the letter Vav) like Ih</td></tr>
 
-  <tr class="sect-header"><td colspan="3">Western</td></tr>
+  <tr class="sect-header"><td>Western</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr class="cat-label"><td colspan="3">Science</td></tr>
   <tr><td>Big Bang</td><td>Radiation (half of the shell)</td><td>Matter (other half)</td></tr>
   <tr><td>Energy</td><td>Movement</td><td>Mass</td></tr>
@@ -988,7 +992,22 @@
   <tr><td>&nbsp;</td><td class="cat-label"><strong>Primary colors of Light</strong><br>(<a href="#primary1">compare with Oahspe</a>)</td><td>Primary colors when mixing paint are same as Oahspe</td></tr>
   <tr><td style="color:green;"><strong>Green</strong></td><td style="color:var(--indigo);"><strong>Violet</strong></td><td style="color:var(--crimson);"><strong>Red</strong></td></tr>
 
-  <tr class="sect-header"><td colspan="3">Eastern</td></tr>
+  <tr class="sect-header"><td>Sacred Geometry</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>Tripod of Life</td><td class="cat-label"><strong>Sacred Geometry</strong></td><td>Structure is derived from consciousness.<br>You exist as a consciousness of God</td></tr>
+  <tr><td>Mind</td><td>Spirit</td><td>Body</td></tr>
+  <tr><td>God</td><td>Consciousness</td><td>Structure</td></tr>
+  <tr><td>Male</td><td>Female</td><td>Child</td></tr>
+  <tr><td>Tetrahedron, hexahedron</td><td>Dodecahedron, icosahedron</td><td>Sphere, octahedron</td></tr>
+  <tr><td>Fire, Earth</td><td>Ether (prana), water</td><td>Void, air</td></tr>
+  <tr><td>&nbsp;</td><td>Left brain</td><td>Right brain</td></tr>
+  <tr><td>Cardinal</td><td>Mutable</td><td>Fixed</td></tr>
+  <tr><td>Many higher selves.<br>3 Triads of the DNA.</td><td class="cat-label"><strong>Collective Consciousness of Nine</strong><br>DNA is a light-ship with captain and crew.</td><td>Infinity with 9 angelic sections at front of each piece of triangular shaped infinity.<br>Communication biologically through the blood, and its pranic energy, but also through the amplification of the pineal gland which hears and sees.</td></tr> angelic sections at front of each piece of triangular shaped infinity. Communication biologically through the blood, and its pranic energy, but also through the amplification of the pineal gland which hears and sees.</td></tr>
+  <tr><td>Invisibility</td><td>Light</td><td>Darkness</td></tr>
+  <tr><td>Sun, Good</td><td>Light, knowledge, wisdom, Sophia</td><td>Sight, truth, son</td></tr>
+
+
+
+  <tr class="sect-header"><td>Eastern</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr class="cat-label"><td colspan="3">Islam — Sufi 1123 AD</td></tr>
   <tr><td>Love</td><td>Beloved</td><td>Lover</td></tr>
   <tr><td>Love</td><td>Beauty</td><td>Harmony</td></tr>
@@ -999,7 +1018,7 @@
   <tr><td>Onisaburo Deguchi's</td><td class="cat-label"><strong>Three irreducible elements of the universe</strong></td><td>&nbsp;</td></tr>
   <tr><td>rei (spirit)</td><td>ryoku (force = spirit + body)</td><td>tai (body)</td></tr>
 
-  <tr class="sect-header"><td colspan="3">Hindu</td></tr>
+  <tr class="sect-header"><td>Hindu</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr class="cat-label"><td colspan="3">Laws of Manu</td></tr>
   <tr><td>Svayambhu — unknowable and unfathomable</td><td>This (universe) existed in the shape of Darkness, unperceived, destitute of distinctive marks, unattainable by reasoning, unknowable, wholly immersed, as it were, in deep sleep</td><td>The great elements and the rest, discernible, appeared with irresistible creative power dispelling the darkness</td></tr>
   <tr><td>He who can be perceived by the internal organ alone, subtile, inconceivable, who contains all created beings, shone forth of his own will</td><td>He, desiring to produce beings of many kinds from his own body, first with a thought created the waters, and placed his seed in them.</td><td>That (seed) became a golden egg in brilliancy equal to the sun</td></tr>
@@ -1127,7 +1146,7 @@
   <tr><td>Pati — master, lord, Siva</td><td>Pasa — bondage, the three mala</td><td>Pasu — bonded, animal, the limited soul, jivatman [Triad of God, world and the soul] This triad is identical to Siva, Sakti and Anu</td></tr>
   <tr><td>Anavamala — being incomplete, non-full</td><td>Maya mala — limitation in knowledge, avidya, illusion</td><td>Karma mala — limitation in the power of action, wrong identification of the author of action with the limited self instead of Siva [Three impurities] Mala means impurity, bondage or poison. The three impurities are responsible for the limitation of the divine condition. When they are transcended, the limited being becomes liberated.</td></tr>
 
-  <tr class="sect-header"><td colspan="3">Brahman</td></tr>
+  <tr class="sect-header"><td>Brahman</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr class="cat-label"><td colspan="3">Fourfold division of worlds (Bhuvanatraya)</td></tr>
   <tr><td>Bhuvah, heaven, firmament</td><td>Swar, atmosphere, the sky; Mahar, eternal luminous essence</td><td>Bhur, earth</td></tr>
   <tr><td>&nbsp;</td><td class="cat-label"><strong>Theosophical views</strong></td><td>Three planes of existence</td></tr>
@@ -1137,7 +1156,7 @@
   <tr class="cat-label"><td colspan="3">Ramana Maharshi</td></tr>
   <tr><td>Source of self is the heart, self-luminous, undifferentiated light of pure consciousness into which reflected light of the mind is completely absorbed</td><td>Illumination arises from the heart and reaches the brain, which is the seat of the mind. The world is seen with the mind, so you see the world by the reflected light of the self</td><td>The world is perceived by an act of the mind. When the mind is illumined, it is aware of the world. If it is not so illumined, it is not aware of the world. If the mind is turned in towards the source of illumination, objective knowledge ceases, and self alone shines as the heart</td></tr>
 
-  <tr class="sect-header"><td colspan="3">Buddhist</td></tr>
+  <tr class="sect-header"><td>Buddhist</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr><td>Nibbana / Nirvana</td><td>Self, luminous essence, true, original self, core of being; primordial radiance of mind; fundamental source of all attachment to being and becoming</td><td>Not-self</td></tr>
   <tr class="cat-label"><td colspan="3">Mahaparinirvana</td></tr>
   <tr><td>Self (atman)</td><td>Pure (subha)</td><td>Eternal (nitya), Blissful (sukha)</td></tr>
@@ -1178,20 +1197,7 @@
   <tr><td>Wisdom Buddhas</td><td class="cat-label"><strong>Dhyani Buddhas</strong></td><td>&nbsp;</td></tr>
   <tr><td>Amitabha: analytical, inner vision through which the illusory nature of "I" and the world is revealed</td><td>Aksobhya: reflective clarity of all beings, perfectly stilled consciousness, wisdom of the Great Mirror</td><td>Ratnasambhava: deep feeling of the solidarity of all beings. The wisdom of equality is synthetic</td></tr>
 
-  <tr class="sect-header"><td colspan="3">Sacred Geometry</td></tr>
-  <tr><td>Tripod of Life</td><td class="cat-label"><strong>Sacred Geometry</strong></td><td>Structure is derived from consciousness.<br>You exist as a consciousness of God</td></tr>
-  <tr><td>Mind</td><td>Spirit</td><td>Body</td></tr>
-  <tr><td>God</td><td>Consciousness</td><td>Structure</td></tr>
-  <tr><td>Male</td><td>Female</td><td>Child</td></tr>
-  <tr><td>Tetrahedron, hexahedron</td><td>Dodecahedron, icosahedron</td><td>Sphere, octahedron</td></tr>
-  <tr><td>Fire, Earth</td><td>Ether (prana), water</td><td>Void, air</td></tr>
-  <tr><td>&nbsp;</td><td>Left brain</td><td>Right brain</td></tr>
-  <tr><td>Cardinal</td><td>Mutable</td><td>Fixed</td></tr>
-  <tr><td>Many higher selves.<br>3 Triads of the DNA.</td><td class="cat-label"><strong>Collective Consciousness of Nine</strong><br>DNA is a light-ship with captain and crew.</td><td>Infinity with 9 angelic sections at front of each piece of triangular shaped infinity.<br>Communication biologically through the blood, and its pranic energy, but also through the amplification of the pineal gland which hears and sees.</td></tr> angelic sections at front of each piece of triangular shaped infinity. Communication biologically through the blood, and its pranic energy, but also through the amplification of the pineal gland which hears and sees.</td></tr>
-  <tr><td>Invisibility</td><td>Light</td><td>Darkness</td></tr>
-  <tr><td>Sun, Good</td><td>Light, knowledge, wisdom, Sophia</td><td>Sight, truth, son</td></tr>
-
-</tbody>
+  </tbody>
 </table>
 </div>
 
